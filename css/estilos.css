@@ -30,6 +30,8 @@ body {
     createBox();
     position: relative;
     box-shadow: 0px 0px 20px;
+    background: Blue;
+    color: White;
   }
   
   .site-subtitle,
