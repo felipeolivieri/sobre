@@ -13,8 +13,23 @@ body {
     font-family: Arial;
     height: 100vh;
     padding-top: 1in;
+    font-size: 10px;
   }
-  
+ 
+/* se a tela tiver pelo menos 400px vai carregar estes estilos*/
+ @media (min-width: 400px) {
+    body {
+        font-size: 14px;
+    }
+ }
+
+ /* Break points */
+@media (min-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+}    
+
 header {
     display: flex;
     text-align: center;
