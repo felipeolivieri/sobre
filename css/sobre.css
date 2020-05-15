@@ -118,7 +118,7 @@ header {
   position: relative;
   top: 99999px;
   transform-origin: 50% 100%;
-  animation: rolamento 80s linear;
+  animation: rolamento 60s linear;
 }
 
 .rolamento > .title {
