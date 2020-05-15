@@ -77,27 +77,23 @@ header {
     color: red;
   }
   
-  .site-subtitle,
-  .site-title {
-    color: darkblue;
-    text-align: center;
-  }
-  
-  .site-title{
-      font-size: 4em;
-  }
-
-  .site-subtitle {
-    font-style: italic;
-  }
-
-  #texto {
-      color: blue;
+  .sobre {
+      color: navy;
       font-family: monospace;
-      text-align: center;
+      text-align: left;
+      text-indent: 0.5in;
       padding-bottom: 1in;
       padding-top: 1in;
+      padding-left: 1in;
+      padding-right: 1in;
   }
+
+  .sobre h3{
+    margin-top: 0.5in;
+    margin-bottom: 1in;
+    text-align: right;
+  }
+}
 
 #rodape {
     font-family: monospace;
