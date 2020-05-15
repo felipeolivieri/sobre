@@ -77,6 +77,19 @@ header {
     color: red;
   }
   
+.titulo{
+  transform: scale(0.2) translateY(50vh);
+  opacity: 0;
+  animation: linear 2s animacaoTitulo forwards;
+}
+
+@keyframes animacaoTitulo {
+  100% {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+}
+
   .site-subtitle,
   .site-title {
     color: darkblue;
@@ -96,7 +109,7 @@ header {
 
 .portfolio {
     padding: 2em;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .portfolio h2{
@@ -142,4 +155,17 @@ header {
     width: 240px;
     object-fit: cover;
     object-position: center;
+    border-radius: 10px;
+    transition: transform 500ms;
+}
+
+.img-portfolio:hover {
+  transform: scale(1.2) rotate(180deg)
+}
+
+.contato {
+  color: black;
+  text-align: right;
+  font-size: 1.5em;
+  padding-right: 0.5in;
 }
