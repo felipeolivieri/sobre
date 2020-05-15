@@ -7,8 +7,6 @@
 }
 
 body {
-    background-image:
-    url('../img/background.jpg');
     background-size: auto 100vh;
     font-family: Arial;
     height: 100vh;
@@ -103,8 +101,8 @@ header {
   justify-content: center;
   position: relative;
   height: 90vh;
-  color: navy;
-  font-family: monospace;
+  color: darkgoldenrod;
+  font-family: 'Pathway Gothic One', sans-serif;
   font-size: 500%;
   font-weight: 600;
   letter-spacing: 6px;
