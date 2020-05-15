@@ -10,10 +10,9 @@ body {
     background-image:
     url('../img/background.jpg');
     background-size: auto 100vh;
-    font-family: Arial;
+    font-family: 'Source Code Pro', monospace;
     height: 100vh;
-    padding-top: 1in;
-    font-size: 10px;
+    font-size: 12px;
   }
  
 /* se a tela tiver pelo menos 400px vai carregar estes estilos*/
@@ -46,6 +45,7 @@ header {
 }
 
   .menu {
+    font-family: 'Source Code Pro', monospace;  
     background-color: white;
     position: fixed;
     width: 100vw;
@@ -85,21 +85,81 @@ header {
   
   .site-title{
       font-size: 4em;
+      font-family: 'Permanent Marker', cursive;
   }
 
   .site-subtitle {
     font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.8em;
   }
 
+.portfolio {
+    padding: 2em;
+    height: 100vh;
+}
+
+.portfolio h2{
+    font-family: 'Source Code Pro', monospace;
+    color: steelblue;
+    margin-bottom: 1.5em;
+    margin-top: 1in;
+    font-size: 2em;
+}
+
+.portfolio .grid {
+    display: grid;
+    gap: 2em;
+}
+
+
+@media (min-width: 560px) {
+  .portfolio .grid {
+    grid-template-columns: 240px 240px;
+  }
+}
+
+@media (min-width: 880px) {
+  .portfolio .grid {
+    grid-template-columns: repeat(3, 260px);
+    align-content: center;
+    justify-content: center;
+    height: calc(100vh - 8em - 48px);
+  }
+
+  .portfolio h2{
+    margin-top: 2in;
+    margin-bottom: 1in;
+  }
+}
+
+.portfolio figure {
+    text-align: center;
+}
+
+.img-portfolio {
+    height: 180px;
+    width: 240px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+  /**
   #texto {
       color: blue;
-      font-family: monospace;
+      font-family: 'Source Code Pro', monospace;
       text-align: center;
       padding-bottom: 1in;
       padding-top: 1in;
   }
 
+
+  **/
+
 #rodape {
     font-family: monospace;
     text-align: right;
 }
+
+
