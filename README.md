@@ -1,3 +1,3 @@
-# imersao-css
+# Um pouco sobre mim
 
-Este código é referente a um curso de 5 dias, online, gratuito da equipe da alura.
+Esta pagina foi desenvolvida para falar um pouco sobre o que gosto de fazer, sobre trabalho, minha trajetória do trabalho e coisas que gosto de estudar e trabalhar.
