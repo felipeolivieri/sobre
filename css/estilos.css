@@ -7,8 +7,7 @@
 }
 
 body {
-    background-image:
-    url('../img/background.jpg');
+    background-image: none;
     background-size: auto 100vh;
     font-family: 'Source Code Pro', monospace;
     height: 100vh;
