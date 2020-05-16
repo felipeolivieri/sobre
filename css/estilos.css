@@ -115,9 +115,10 @@ header {
 .portfolio h2{
     font-family: 'Source Code Pro', monospace;
     color: steelblue;
-    margin-bottom: 1.5em;
-    margin-top: 1in;
+    margin-bottom: 2em;
+    margin-top: 4em;
     font-size: 2em;
+    text-align: center;
 }
 
 .portfolio .grid {
@@ -140,11 +141,6 @@ header {
     height: calc(100vh - 8em - 48px);
   }
 
-  .portfolio h2{
-    margin-top: 2in;
-    margin-bottom: 1in;
-  }
-}
 
 .portfolio figure {
     text-align: center;
@@ -152,16 +148,55 @@ header {
 
 .img-portfolio {
     height: 180px;
-    width: 240px;
+    width: 100%;
     object-fit: cover;
     object-position: center;
     border-radius: 10px;
     transition: transform 500ms;
 }
 
+.flip-card{
+  height: 180px;
+  perspective: 500px;
+  margin-bottom: 1em;
+}
+
+
+.card {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+.flip-card:hover .card {
+  transform: rotateY(180deg);
+  
+}
+
+.card-front, .card-back {
+  position: absolute;
+  backface-visibility: hidden;
+  left: 0;
+  top: 0;
+}
+
+.card-front {
+
+}
+
+.card-back {
+  height: 180px;
+  width: 100%;
+  background-color: lightcyan;
+  transform: rotateY(180deg);
+  font-size: 0.7em;
+}
+
+/*
 .img-portfolio:hover {
   transform: scale(1.2) rotate(180deg)
 }
+*/
 
 .contato {
   color: black;
