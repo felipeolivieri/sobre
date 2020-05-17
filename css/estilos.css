@@ -76,18 +76,22 @@ header {
     color: red;
   }
   
-.titulo{
-  transform: scale(0.2) translateY(50vh);
-  opacity: 0;
-  animation: linear 2s animacaoTitulo forwards;
-}
-
-@keyframes animacaoTitulo {
-  100% {
-    transform: scale(1) translateY(0);
-    opacity: 1;
+  .titulo {
+    transform: scale(0.2) translateY(50vh);
+    opacity: 0;
+    animation: 1s ease 500ms animacaoTitulo forwards;
   }
-}
+  
+  @keyframes animacaoTitulo {
+    from {
+      transform: scale(0.2) translateY(50vh);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1) translateY(0);
+      opacity: 1;
+    }
+  }
 
   .site-subtitle,
   .site-title {
