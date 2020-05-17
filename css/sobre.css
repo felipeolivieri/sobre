@@ -82,11 +82,10 @@ a:hover{
     color: navy;
     font-family: monospace;
     text-align: left;
-    text-indent: 0.5in;
-    padding-bottom: 1in;
-
-    padding-left: 1in;
-    padding-right: 1in;
+    text-indent: 0.5em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em  ;
 }
 
 
@@ -113,6 +112,10 @@ a:hover{
     width: 400px;
     border-radius: 20%;
   }
+
+  .sobre h1 {
+    font-size: 1em;
+}
 }
 
 @media (min-width: 1200px) {
