@@ -120,12 +120,10 @@ header {
     color: steelblue;
     margin-bottom: 1em;
     margin-top: 1em;
-    padding-bottom: 2em;
-    padding-top: 2em;
     font-size: 2em;
     text-align: center;
-    padding-bottom: 4em;
-    padding-top: 4em;
+    padding-bottom: 2em;
+    padding-top: 2em;
 }
 
 .portfolio .grid {
@@ -145,8 +143,14 @@ header {
     grid-template-columns: repeat(3, 260px);
     align-content: center;
     justify-content: center;
-    height: calc(100vh - 8em - 48px);
+    /*height: calc(100vh - 8em - 48px);*/
   }
+
+  .portfolio h2{
+    padding-bottom: 3em;
+    padding-top: 3em;
+}
+
 }
 
 
