@@ -103,10 +103,26 @@ a:hover{
 
 .img-avatar {
   height: 100%;
-  width: 440px;
-  border-radius: 30%;
-
+  width: 110px;
+  border-radius: 20%;
 }
+
+@media (min-width: 600px) {
+  .img-avatar {
+    height: 100%;
+    width: 400px;
+    border-radius: 20%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .img-avatar {
+    height: 100%;
+    width: 700px;
+    border-radius: 20%;
+  }
+}
+
 
 .contato {
   color: black;
